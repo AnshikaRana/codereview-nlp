@@ -37,20 +37,31 @@ for page in range(1, 8):
 
     for pr in prs:
         try:
+            
+            files_url = pr["url"] + "/files"
+            files_response = requests.get(files_url, headers=headers)
+
+            code = ""
+
+            if files_response.status_code == 200:
+                files = files_response.json()
+                for f in files:
+                    if "patch" in f:
+                        code += f["patch"] + "\n"
+
             entry = {
-                "code": "dummy code",
+                "code": code,
                 "inline_comments": [],
                 "commit_msg": pr.get("title", ""),
                 "review_comments": []
-            }
+                }
             data.append(entry)
+
         except Exception as e:
             print("Error processing PR:", e)
 
 # Save data (clean overwrite)
-file_path = "data/prs.json"
-
-with open(file_path, "w") as f:
+with open("data/prs.json", "w") as f:
     json.dump(data, f, indent=2)
 
-print(f"\n Total PRs saved: {len(data)}")
+print(f"\n✅ Total PRs saved: {len(data)}")
