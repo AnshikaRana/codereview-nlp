@@ -1,4 +1,4 @@
-from modules.name_quality import name_quality_score
+from name_quality import name_quality_score
 
 code = """
 def calculate_total_price(item_price, tax):
