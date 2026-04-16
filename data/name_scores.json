@@ -1,0 +1,1052 @@
+[
+  {
+    "commit_msg": "<spam>",
+    "score": 1.8,
+    "length_of_code": 2582
+  },
+  {
+    "commit_msg": "<spam>",
+    "score": 1.55,
+    "length_of_code": 2699
+  },
+  {
+    "commit_msg": "<spam>",
+    "score": 1.27,
+    "length_of_code": 17482
+  },
+  {
+    "commit_msg": "<spam>",
+    "score": 1,
+    "length_of_code": 270
+  },
+  {
+    "commit_msg": "fix(security): resolve 13 CVEs in examples/celery/requirements.txt",
+    "score": 1.74,
+    "length_of_code": 745
+  },
+  {
+    "commit_msg": "<spam>",
+    "score": 1,
+    "length_of_code": 2084
+  },
+  {
+    "commit_msg": "docs: fix doubled word \"the\" in TESTING config description",
+    "score": 1,
+    "length_of_code": 434
+  },
+  {
+    "commit_msg": "fix: upgrade werkzeug to 3.0.3 (CVE-2024-34069)",
+    "score": 1.21,
+    "length_of_code": 32747
+  },
+  {
+    "commit_msg": "test: plant bugs and vulnerabilities for code review tool comparison",
+    "score": 1.63,
+    "length_of_code": 5964
+  },
+  {
+    "commit_msg": "Security: Path traversal risk in Blueprint.open_resource",
+    "score": 1.5,
+    "length_of_code": 532
+  },
+  {
+    "commit_msg": "\u2728 Quality: Celery task result endpoint crashes on task failure",
+    "score": 1.6,
+    "length_of_code": 518
+  },
+  {
+    "commit_msg": "Handle missing secret key during session save",
+    "score": 1.68,
+    "length_of_code": 2011
+  },
+  {
+    "commit_msg": "remove unicode host test",
+    "score": 1.73,
+    "length_of_code": 694
+  },
+  {
+    "commit_msg": "style: ensure trailing newline at EOF in README",
+    "score": 1,
+    "length_of_code": 0
+  },
+  {
+    "commit_msg": "test: add OpenClaw agent contribution marker",
+    "score": 1,
+    "length_of_code": 138
+  },
+  {
+    "commit_msg": "docs: fix spacing in Python version requirement",
+    "score": 1,
+    "length_of_code": 0
+  },
+  {
+    "commit_msg": "Default SESSION_COOKIE_SAMESITE to \"Lax\"",
+    "score": 1,
+    "length_of_code": 410
+  },
+  {
+    "commit_msg": "Fix Config.from_file silent error handling to include ENOTDIR",
+    "score": 1.71,
+    "length_of_code": 1158
+  },
+  {
+    "commit_msg": "Add Qlty code coverage reporting to CI",
+    "score": 1.04,
+    "length_of_code": 37975
+  },
+  {
+    "commit_msg": "Added comprehensive example to Html escaping ",
+    "score": 1.33,
+    "length_of_code": 712
+  },
+  {
+    "commit_msg": "Added a real world html escaping example",
+    "score": 1.33,
+    "length_of_code": 712
+  },
+  {
+    "commit_msg": "Added a comprehensive real world example to the 'HTML Escaping'",
+    "score": 1.33,
+    "length_of_code": 712
+  },
+  {
+    "commit_msg": "docs: mention Redis requirement in Celery example README",
+    "score": 1,
+    "length_of_code": 655
+  },
+  {
+    "commit_msg": "Remove dead code",
+    "score": 1.71,
+    "length_of_code": 1364
+  },
+  {
+    "commit_msg": "add zizmor to scan workflows",
+    "score": 1.0,
+    "length_of_code": 4497
+  },
+  {
+    "commit_msg": "Add ENOTDIR handling to Config.from_file with silent=True",
+    "score": 1.62,
+    "length_of_code": 1275
+  },
+  {
+    "commit_msg": "Reduce dispatch_request processing time by 8%",
+    "score": 1.9,
+    "length_of_code": 4408
+  },
+  {
+    "commit_msg": "fix: replace 1 bare except clauses with except Exception",
+    "score": 1.5,
+    "length_of_code": 329
+  },
+  {
+    "commit_msg": "fix: replace bare except clause with except Exception",
+    "score": 1.5,
+    "length_of_code": 329
+  },
+  {
+    "commit_msg": "ci: declare explicit read-only GITHUB_TOKEN permissions",
+    "score": 1,
+    "length_of_code": 361
+  },
+  {
+    "commit_msg": "Add basic pip installation instruction to README",
+    "score": 1,
+    "length_of_code": 283
+  },
+  {
+    "commit_msg": "all teardown callbacks are called despite errors",
+    "score": 1.49,
+    "length_of_code": 17088
+  },
+  {
+    "commit_msg": "ensure context cleanup runs even if teardown raises",
+    "score": 1.71,
+    "length_of_code": 954
+  },
+  {
+    "commit_msg": "Centralize and Validate Request Size Limits to Prevent Misconfigurati\u2026",
+    "score": 1.76,
+    "length_of_code": 4467
+  },
+  {
+    "commit_msg": "Authentication Security",
+    "score": 1.5,
+    "length_of_code": 4900
+  },
+  {
+    "commit_msg": "release version 3.1.3",
+    "score": 1.79,
+    "length_of_code": 626
+  },
+  {
+    "commit_msg": "Fix ENOTDIR handling in Config.from_file() with silent=True",
+    "score": 1.71,
+    "length_of_code": 1152
+  },
+  {
+    "commit_msg": "Add test runner script with base and new modes",
+    "score": 1.0,
+    "length_of_code": 394
+  },
+  {
+    "commit_msg": "docs: fix duplicated word in lazyloading guide",
+    "score": 2.0,
+    "length_of_code": 464
+  },
+  {
+    "commit_msg": "Add contribution note to README for collaboration demo",
+    "score": 1,
+    "length_of_code": 350
+  },
+  {
+    "commit_msg": "fix provide_automatic_options override",
+    "score": 1.51,
+    "length_of_code": 10537
+  },
+  {
+    "commit_msg": "add ENOTDIR to from_file silent error handling",
+    "score": 1.67,
+    "length_of_code": 1432
+  },
+  {
+    "commit_msg": "Fix Config.from_file() silent mode not handling ENOTDIR",
+    "score": 1.74,
+    "length_of_code": 1908
+  },
+  {
+    "commit_msg": "Fix request resource leak when teardown handlers raise",
+    "score": 1.0,
+    "length_of_code": 502
+  },
+  {
+    "commit_msg": "\ud83e\udd16 Automated code quality improvements (5 fixes)",
+    "score": 1,
+    "length_of_code": 0
+  },
+  {
+    "commit_msg": "style: format response tuple unpacking (extract helper)",
+    "score": 1.9,
+    "length_of_code": 2365
+  },
+  {
+    "commit_msg": "Added a return type annotation to an internal utility function in the Requests library to improve code readability and static analysis without affecting behavior.",
+    "score": 1,
+    "length_of_code": 548
+  },
+  {
+    "commit_msg": "Clarify data correctness explanation in quickstart",
+    "score": 1,
+    "length_of_code": 527
+  },
+  {
+    "commit_msg": "Abort if the instance folder cannot be created",
+    "score": 1.8,
+    "length_of_code": 705
+  },
+  {
+    "commit_msg": "document using gevent for async",
+    "score": 1.23,
+    "length_of_code": 14769
+  },
+  {
+    "commit_msg": "deprecate `should_ignore_error`",
+    "score": 1.7,
+    "length_of_code": 2561
+  },
+  {
+    "commit_msg": "redirect defaults to 303",
+    "score": 1.5,
+    "length_of_code": 2570
+  },
+  {
+    "commit_msg": "Cache compiled templates in render_template_string",
+    "score": 1.45,
+    "length_of_code": 7000
+  },
+  {
+    "commit_msg": "docs: improve wording in appdispatch",
+    "score": 1,
+    "length_of_code": 688
+  },
+  {
+    "commit_msg": "Improve templating documentation for clarity and readability",
+    "score": 1.73,
+    "length_of_code": 8060
+  },
+  {
+    "commit_msg": "Revise Jinja templating documentation for clarity and readability",
+    "score": 1.73,
+    "length_of_code": 7628
+  },
+  {
+    "commit_msg": "Docs: add context to Incoming Request Data section",
+    "score": 1,
+    "length_of_code": 668
+  },
+  {
+    "commit_msg": "clarify async view incompatibility with gevent monkey patching",
+    "score": 1,
+    "length_of_code": 2865
+  },
+  {
+    "commit_msg": "Add GitHub Actions CI workflow",
+    "score": 1,
+    "length_of_code": 392
+  },
+  {
+    "commit_msg": "Add hello.py for testing",
+    "score": 1,
+    "length_of_code": 50
+  },
+  {
+    "commit_msg": "Minor documentation",
+    "score": 1,
+    "length_of_code": 942
+  },
+  {
+    "commit_msg": "docs: Upgrade HTTP links to HTTPS",
+    "score": 1,
+    "length_of_code": 797
+  },
+  {
+    "commit_msg": "docs: clarify 415 error when receiving JSON requests",
+    "score": 1,
+    "length_of_code": 672
+  },
+  {
+    "commit_msg": "Clarify 415 Unsupported Media in JSON docs",
+    "score": 1,
+    "length_of_code": 658
+  },
+  {
+    "commit_msg": "Clarify 415 Unsupported Media Type in JSON docs",
+    "score": 1,
+    "length_of_code": 658
+  },
+  {
+    "commit_msg": "Fixed error code documentation for request.json",
+    "score": 1,
+    "length_of_code": 525
+  },
+  {
+    "commit_msg": "init",
+    "score": 2.0,
+    "length_of_code": 377
+  },
+  {
+    "commit_msg": "Document 415 Unsupported Media Type for JSON requests",
+    "score": 1,
+    "length_of_code": 398
+  },
+  {
+    "commit_msg": "Improve exception handler in wsgi_app method",
+    "score": 1.4,
+    "length_of_code": 546
+  },
+  {
+    "commit_msg": "Deprecate should_ignore_error method",
+    "score": 1.72,
+    "length_of_code": 4360
+  },
+  {
+    "commit_msg": "Clarify JSON request errors: 400 vs 415",
+    "score": 1,
+    "length_of_code": 525
+  },
+  {
+    "commit_msg": "Increase required flit_core version to 3.11",
+    "score": 1.6,
+    "length_of_code": 221
+  },
+  {
+    "commit_msg": "Add built-in CSRF protection using Sec-Fetch-Site header",
+    "score": 1.6,
+    "length_of_code": 23600
+  },
+  {
+    "commit_msg": "Fix documentation for JSON error codes",
+    "score": 1,
+    "length_of_code": 525
+  },
+  {
+    "commit_msg": "Create test",
+    "score": 1,
+    "length_of_code": 0
+  },
+  {
+    "commit_msg": "Refactor __init__.py module to improve organization, readability and public API structure",
+    "score": 2.0,
+    "length_of_code": 4271
+  },
+  {
+    "commit_msg": "Add documentation and fix type safety bugs",
+    "score": 1.81,
+    "length_of_code": 6516
+  },
+  {
+    "commit_msg": "Refactor Blueprint.register to reduce cyclomatic complexity",
+    "score": 1.82,
+    "length_of_code": 8235
+  },
+  {
+    "commit_msg": "kimi-v1",
+    "score": 1.79,
+    "length_of_code": 54620
+  },
+  {
+    "commit_msg": "Deprecate should_ignore_error method and add unit tests",
+    "score": 1.71,
+    "length_of_code": 2564
+  },
+  {
+    "commit_msg": "Added rate limiting functionality to Flask app",
+    "score": 1.55,
+    "length_of_code": 6060
+  },
+  {
+    "commit_msg": "Docs: Add WSGI documentation note to README",
+    "score": 1,
+    "length_of_code": 456
+  },
+  {
+    "commit_msg": "Add copy-to-clipboard button for code blocks in Flask documentation.",
+    "score": 1.75,
+    "length_of_code": 4552
+  },
+  {
+    "commit_msg": "Add copy-to-clipboard button for code blocks in Flask documentation.",
+    "score": 1.75,
+    "length_of_code": 4552
+  },
+  {
+    "commit_msg": "docs: Improve Quickstart example clarity for beginners",
+    "score": 1.4,
+    "length_of_code": 731
+  },
+  {
+    "commit_msg": "Fix _validate_key to handle click 8.3.1 Sentinel values",
+    "score": 2.0,
+    "length_of_code": 456
+  },
+  {
+    "commit_msg": "docs: Add explanation of reloader types and terminal output",
+    "score": 1.5,
+    "length_of_code": 2243
+  },
+  {
+    "commit_msg": "pre-commit: Add codespell",
+    "score": 1.67,
+    "length_of_code": 2056
+  },
+  {
+    "commit_msg": "docs: enhance README with comprehensive examples and troubleshooting",
+    "score": 1.43,
+    "length_of_code": 9157
+  },
+  {
+    "commit_msg": "Update app.py",
+    "score": 1.57,
+    "length_of_code": 62400
+  },
+  {
+    "commit_msg": "Create jenkinsfile",
+    "score": 2.0,
+    "length_of_code": 2234
+  },
+  {
+    "commit_msg": "Add Seenode deployment instructions to documentation",
+    "score": 1,
+    "length_of_code": 602
+  },
+  {
+    "commit_msg": "`pre-commit autoupdate --freeze` 2025-10-23",
+    "score": 1,
+    "length_of_code": 559
+  },
+  {
+    "commit_msg": "fix typos discovered by  codespell",
+    "score": 1.67,
+    "length_of_code": 110271
+  },
+  {
+    "commit_msg": "GitHub Actions: Add Python 3.14 and 3.14t to the testing",
+    "score": 1.02,
+    "length_of_code": 76901
+  },
+  {
+    "commit_msg": "Update installation instructions for Windows PowerShell",
+    "score": 1.0,
+    "length_of_code": 619
+  },
+  {
+    "commit_msg": "Docs typo/markup fixes",
+    "score": 1,
+    "length_of_code": 1207
+  },
+  {
+    "commit_msg": "docs: fix missing quote in flashing example",
+    "score": 1.4,
+    "length_of_code": 367
+  },
+  {
+    "commit_msg": "clarify 415 vs 400 errors for request.json",
+    "score": 1,
+    "length_of_code": 1004
+  },
+  {
+    "commit_msg": "docs: clarify JSON parsing error conditions in Flask views",
+    "score": 1,
+    "length_of_code": 502
+  },
+  {
+    "commit_msg": "Clarify asyncio and gevent incompatibility in docs (#5817)",
+    "score": 1,
+    "length_of_code": 702
+  },
+  {
+    "commit_msg": "Add type hints to tutorial and Javascript examples",
+    "score": 1.55,
+    "length_of_code": 4745
+  },
+  {
+    "commit_msg": "pass context through dispatch methods",
+    "score": 1.67,
+    "length_of_code": 22503
+  },
+  {
+    "commit_msg": "this is issue here",
+    "score": 1.5,
+    "length_of_code": 1106
+  },
+  {
+    "commit_msg": "Create codeql-analysis.yml",
+    "score": 1,
+    "length_of_code": 683
+  },
+  {
+    "commit_msg": "merge app and request context",
+    "score": 1.66,
+    "length_of_code": 112045
+  },
+  {
+    "commit_msg": "Add various bugs for BugBot demo",
+    "score": 1.47,
+    "length_of_code": 1936
+  },
+  {
+    "commit_msg": "Add various bugs for BugBot demo",
+    "score": 1.47,
+    "length_of_code": 1936
+  },
+  {
+    "commit_msg": "Added a line for first contributionme",
+    "score": 1,
+    "length_of_code": 229
+  },
+  {
+    "commit_msg": "fix annotation for select_jinja_autoescape",
+    "score": 2.0,
+    "length_of_code": 425
+  },
+  {
+    "commit_msg": "Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py",
+    "score": 1.35,
+    "length_of_code": 102155
+  },
+  {
+    "commit_msg": "Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py",
+    "score": 2.0,
+    "length_of_code": 425
+  },
+  {
+    "commit_msg": "feat(example/blog): Add flash messages for user feedback",
+    "score": 1.0,
+    "length_of_code": 942
+  },
+  {
+    "commit_msg": "Add CodeQL scan workflow",
+    "score": 1,
+    "length_of_code": 718
+  },
+  {
+    "commit_msg": "Add DEVOPS_NOTES.txt for practice",
+    "score": 1,
+    "length_of_code": 51
+  },
+  {
+    "commit_msg": "release version 3.1.2",
+    "score": 1.67,
+    "length_of_code": 1304
+  },
+  {
+    "commit_msg": "refactor stream_with_context for async views",
+    "score": 1.57,
+    "length_of_code": 5947
+  },
+  {
+    "commit_msg": "security docs for TRUSTED_HOSTS",
+    "score": 1.5,
+    "length_of_code": 1070
+  },
+  {
+    "commit_msg": "push preserved contexts in correct order",
+    "score": 1.21,
+    "length_of_code": 2040
+  },
+  {
+    "commit_msg": "Fix typos and improve CLI documentation",
+    "score": 2.0,
+    "length_of_code": 1366
+  },
+  {
+    "commit_msg": "Update GitHub Actions workflow for artifact handling",
+    "score": 2.0,
+    "length_of_code": 1845
+  },
+  {
+    "commit_msg": "Loosen send_file type annotation to include typing.IO[bytes]",
+    "score": 1.4,
+    "length_of_code": 351
+  },
+  {
+    "commit_msg": "Create python-package.yml",
+    "score": 2.0,
+    "length_of_code": 1365
+  },
+  {
+    "commit_msg": "docs: Fix grammar and article usage in documentation",
+    "score": 1,
+    "length_of_code": 1359
+  },
+  {
+    "commit_msg": "Scroll to top doc UI",
+    "score": 1.71,
+    "length_of_code": 1302
+  },
+  {
+    "commit_msg": "docs: added scroll-to-top button with JS and CSS",
+    "score": 1.71,
+    "length_of_code": 1163
+  },
+  {
+    "commit_msg": "Respect autocorrect_location_header in make_response",
+    "score": 2.0,
+    "length_of_code": 1074
+  },
+  {
+    "commit_msg": "BLockchain based E-voting example",
+    "score": 1.56,
+    "length_of_code": 2879
+  },
+  {
+    "commit_msg": "Widen send_file type hint to IO[bytes]",
+    "score": 1.67,
+    "length_of_code": 1763
+  },
+  {
+    "commit_msg": "Widen send_file type hint to IO[bytes]",
+    "score": 1.67,
+    "length_of_code": 1657
+  },
+  {
+    "commit_msg": "Add devcontainer with Python 3.13 and uv support",
+    "score": 1,
+    "length_of_code": 1076
+  },
+  {
+    "commit_msg": "use IO[bytes] instead of BinaryIO for wider compatibility",
+    "score": 1.4,
+    "length_of_code": 579
+  },
+  {
+    "commit_msg": "Fix: Raise RuntimeError when stream_with_context is used on async view",
+    "score": 1.42,
+    "length_of_code": 1347
+  },
+  {
+    "commit_msg": "newStaging",
+    "score": 1.78,
+    "length_of_code": 33463
+  },
+  {
+    "commit_msg": "Create Jenkinsfile",
+    "score": 1,
+    "length_of_code": 879
+  },
+  {
+    "commit_msg": "merge request",
+    "score": 1.85,
+    "length_of_code": 1208
+  },
+  {
+    "commit_msg": "Collapsable posts",
+    "score": 1.67,
+    "length_of_code": 193887
+  },
+  {
+    "commit_msg": "Fix session cookie path resolution",
+    "score": 1.0,
+    "length_of_code": 1006
+  },
+  {
+    "commit_msg": "Try the feather city GitHub Action",
+    "score": 1,
+    "length_of_code": 789
+  },
+  {
+    "commit_msg": "refactor: rename RequestBase import to RB for consistency",
+    "score": 1,
+    "length_of_code": 508
+  },
+  {
+    "commit_msg": "fix: template_filter function ( function parameter was overridden by 'name')",
+    "score": 1.5,
+    "length_of_code": 712
+  },
+  {
+    "commit_msg": "actions",
+    "score": 1.75,
+    "length_of_code": 6200
+  },
+  {
+    "commit_msg": "svg logo",
+    "score": 0.99,
+    "length_of_code": 15112
+  },
+  {
+    "commit_msg": "remove slsa provenance",
+    "score": 1.5,
+    "length_of_code": 2081
+  },
+  {
+    "commit_msg": "Create tutoriallask",
+    "score": 1,
+    "length_of_code": 0
+  },
+  {
+    "commit_msg": " Add REST API blog example with full CRUD and unit tests Add REST API blog example with full CRUD and unit tests",
+    "score": 1.71,
+    "length_of_code": 4374
+  },
+  {
+    "commit_msg": "Add section on host header injection and _external=True in url_for (#\u2026",
+    "score": 2.0,
+    "length_of_code": 1090
+  },
+  {
+    "commit_msg": "Improve Onboarding with Generated System Diagrams",
+    "score": 1.0,
+    "length_of_code": 44077
+  },
+  {
+    "commit_msg": "Improve Onboarding with Generated System Diagrams",
+    "score": 1.0,
+    "length_of_code": 44077
+  },
+  {
+    "commit_msg": "Fix template decorators to work without parentheses",
+    "score": 1.47,
+    "length_of_code": 11834
+  },
+  {
+    "commit_msg": "Docs: Fix escaping in HTML escaping example",
+    "score": 1.0,
+    "length_of_code": 823
+  },
+  {
+    "commit_msg": "Docs: Fix escaping in HTML escaping example",
+    "score": 1.34,
+    "length_of_code": 73793
+  },
+  {
+    "commit_msg": "Allow iterables for multiple template paths",
+    "score": 1.19,
+    "length_of_code": 6733
+  },
+  {
+    "commit_msg": "Fix global CONTRIBUTING link",
+    "score": 2.0,
+    "length_of_code": 323
+  },
+  {
+    "commit_msg": "support call template_filter without parens",
+    "score": 1.46,
+    "length_of_code": 28965
+  },
+  {
+    "commit_msg": "fix #5729: raise TypeError when @app.template_filter is used without parenthesis",
+    "score": 1.89,
+    "length_of_code": 1057
+  },
+  {
+    "commit_msg": "Fix template_filter decorator to support usage without parentheses",
+    "score": 1.65,
+    "length_of_code": 2834
+  },
+  {
+    "commit_msg": "Zadanie 14 - merge dev1",
+    "score": 2.0,
+    "length_of_code": 464
+  },
+  {
+    "commit_msg": "Dev0",
+    "score": 1,
+    "length_of_code": 301
+  },
+  {
+    "commit_msg": "drop end of life python versions",
+    "score": 1.33,
+    "length_of_code": 72051
+  },
+  {
+    "commit_msg": "release version 3.1.1",
+    "score": 1.61,
+    "length_of_code": 1132
+  },
+  {
+    "commit_msg": "use uv",
+    "score": 1.78,
+    "length_of_code": 26884
+  },
+  {
+    "commit_msg": "Update errorhandling.rst",
+    "score": 2.0,
+    "length_of_code": 828
+  },
+  {
+    "commit_msg": "Update macOS UI reference to \u201cSystem Settings\u201d",
+    "score": 1,
+    "length_of_code": 422
+  },
+  {
+    "commit_msg": "docs: add warning and best practices for url_for(..., _external=True)\u2026",
+    "score": 2.0,
+    "length_of_code": 1430
+  },
+  {
+    "commit_msg": "Improve README.md structure and clarity for better onboarding",
+    "score": 1,
+    "length_of_code": 2436
+  },
+  {
+    "commit_msg": "Fix Doc",
+    "score": 1.5,
+    "length_of_code": 123931
+  },
+  {
+    "commit_msg": "Doc sphinx",
+    "score": 1.52,
+    "length_of_code": 73135
+  },
+  {
+    "commit_msg": "try 3",
+    "score": 1.5,
+    "length_of_code": 123931
+  },
+  {
+    "commit_msg": "Doc sphinx",
+    "score": 1.5,
+    "length_of_code": 123931
+  },
+  {
+    "commit_msg": "fix for 5709: explicitly delete error references to prevent memory leaks",
+    "score": 1.67,
+    "length_of_code": 404
+  },
+  {
+    "commit_msg": "Update README.md",
+    "score": 1,
+    "length_of_code": 722
+  },
+  {
+    "commit_msg": "Add PR trigger to workflow",
+    "score": 1,
+    "length_of_code": 1029
+  },
+  {
+    "commit_msg": "Merge app and request contexts into a single context (#5639)",
+    "score": 1.8,
+    "length_of_code": 23468
+  },
+  {
+    "commit_msg": "Fix misleading docstring for teardown_request (closes #5102)",
+    "score": 2.0,
+    "length_of_code": 2086
+  },
+  {
+    "commit_msg": "remove tests about deprecated pkgutil.get_loader",
+    "score": 1.84,
+    "length_of_code": 2316
+  },
+  {
+    "commit_msg": "add endpoint name in favicon example",
+    "score": 2.0,
+    "length_of_code": 626
+  },
+  {
+    "commit_msg": "better type checking during deprecation",
+    "score": 1.67,
+    "length_of_code": 1203
+  },
+  {
+    "commit_msg": "remove extra logic",
+    "score": 2.0,
+    "length_of_code": 680
+  },
+  {
+    "commit_msg": "Stable",
+    "score": 1,
+    "length_of_code": 251
+  },
+  {
+    "commit_msg": "add fixture to mock importlib.util.find_spec for custom loaders in tests",
+    "score": 1,
+    "length_of_code": 251
+  },
+  {
+    "commit_msg": "Remove HTTP Public Key Pinning from docs",
+    "score": 1.0,
+    "length_of_code": 603
+  },
+  {
+    "commit_msg": "add fixture to mock importlib.util.find_spec for custom loaders in tests",
+    "score": 1.85,
+    "length_of_code": 1444
+  },
+  {
+    "commit_msg": "Fix inaccurate documentation for adding a favicon redirect",
+    "score": 2.0,
+    "length_of_code": 615
+  },
+  {
+    "commit_msg": "Improve invalid response error messages",
+    "score": 1.0,
+    "length_of_code": 1604
+  },
+  {
+    "commit_msg": "Use SPDX license identifier",
+    "score": 1.65,
+    "length_of_code": 894
+  },
+  {
+    "commit_msg": "This closes #3 will act as a coverage tracker, to our functions",
+    "score": 2.0,
+    "length_of_code": 228
+  },
+  {
+    "commit_msg": "Enable PDF and ePub offline documentation downloads",
+    "score": 1,
+    "length_of_code": 109
+  },
+  {
+    "commit_msg": "[Edited] Fix minor bug in the main function",
+    "score": 1.43,
+    "length_of_code": 697
+  },
+  {
+    "commit_msg": "Handle help arg by itself the same as no args",
+    "score": 2.0,
+    "length_of_code": 799
+  },
+  {
+    "commit_msg": "Fixes typo in `globals`",
+    "score": 2.0,
+    "length_of_code": 722
+  },
+  {
+    "commit_msg": "Update app factory docs",
+    "score": 2.0,
+    "length_of_code": 422
+  },
+  {
+    "commit_msg": "Async Iterable Response",
+    "score": 1,
+    "length_of_code": 787
+  },
+  {
+    "commit_msg": "Fix typo in the docs",
+    "score": 1.0,
+    "length_of_code": 417
+  },
+  {
+    "commit_msg": "update `__version__` deprecation",
+    "score": 2.0,
+    "length_of_code": 391
+  },
+  {
+    "commit_msg": "remove previously deprecated code",
+    "score": 1.67,
+    "length_of_code": 1026
+  },
+  {
+    "commit_msg": "fix type hint for `cli_runner.invoke`",
+    "score": 1.5,
+    "length_of_code": 768
+  },
+  {
+    "commit_msg": "Use SPDX license identifier",
+    "score": 1.64,
+    "length_of_code": 502
+  },
+  {
+    "commit_msg": "release version 3.1.0",
+    "score": 1.75,
+    "length_of_code": 981
+  },
+  {
+    "commit_msg": "use generic bases for session",
+    "score": 1.8,
+    "length_of_code": 1292
+  },
+  {
+    "commit_msg": "configure and check `request.trusted_hosts`",
+    "score": 1.62,
+    "length_of_code": 2964
+  },
+  {
+    "commit_msg": "setting `SERVER_NAME` does not restrict routing for both `subdomain_matching` and `host_matching`",
+    "score": 1.75,
+    "length_of_code": 7849
+  },
+  {
+    "commit_msg": "update min blinker version",
+    "score": 1.8,
+    "length_of_code": 915
+  },
+  {
+    "commit_msg": "enable secret key rotation",
+    "score": 1.79,
+    "length_of_code": 3956
+  },
+  {
+    "commit_msg": "update env file precedence",
+    "score": 1.74,
+    "length_of_code": 9725
+  },
+  {
+    "commit_msg": "give priority to '-e/--env-file' option over default files (#5628)",
+    "score": 1.64,
+    "length_of_code": 2920
+  },
+  {
+    "commit_msg": "fix example and tutorial compatibility and update metadata",
+    "score": 1.7,
+    "length_of_code": 2857
+  },
+  {
+    "commit_msg": "add config and docs for limits",
+    "score": 1.69,
+    "length_of_code": 12582
+  },
+  {
+    "commit_msg": "update minimum dependencies",
+    "score": 1.84,
+    "length_of_code": 10944
+  },
+  {
+    "commit_msg": "drop support for Python 3.8",
+    "score": 1.83,
+    "length_of_code": 7860
+  }
+]
