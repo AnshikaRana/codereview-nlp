@@ -64,4 +64,4 @@ for page in range(1, 8):
 with open("data/prs.json", "w") as f:
     json.dump(data, f, indent=2)
 
-print(f"\n✅ Total PRs saved: {len(data)}")
+print(f"\n Total PRs saved: {len(data)}")
