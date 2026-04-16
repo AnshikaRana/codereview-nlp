@@ -1,0 +1,1262 @@
+[
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "<spam>",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "<spam>",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "<spam>",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "<spam>",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix(security): resolve 13 CVEs in examples/celery/requirements.txt",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "<spam>",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: fix doubled word \"the\" in TESTING config description",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix: upgrade werkzeug to 3.0.3 (CVE-2024-34069)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "test: plant bugs and vulnerabilities for code review tool comparison",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Security: Path traversal risk in Blueprint.open_resource",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "\u2728 Quality: Celery task result endpoint crashes on task failure",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Handle missing secret key during session save",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "remove unicode host test",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "style: ensure trailing newline at EOF in README",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "test: add OpenClaw agent contribution marker",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: fix spacing in Python version requirement",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Default SESSION_COOKIE_SAMESITE to \"Lax\"",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix Config.from_file silent error handling to include ENOTDIR",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add Qlty code coverage reporting to CI",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Added comprehensive example to Html escaping ",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Added a real world html escaping example",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Added a comprehensive real world example to the 'HTML Escaping'",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: mention Redis requirement in Celery example README",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Remove dead code",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "add zizmor to scan workflows",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add ENOTDIR handling to Config.from_file with silent=True",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Reduce dispatch_request processing time by 8%",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix: replace 1 bare except clauses with except Exception",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix: replace bare except clause with except Exception",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "ci: declare explicit read-only GITHUB_TOKEN permissions",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add basic pip installation instruction to README",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "all teardown callbacks are called despite errors",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "ensure context cleanup runs even if teardown raises",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Centralize and Validate Request Size Limits to Prevent Misconfigurati\u2026",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Authentication Security",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "release version 3.1.3",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix ENOTDIR handling in Config.from_file() with silent=True",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add test runner script with base and new modes",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: fix duplicated word in lazyloading guide",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add contribution note to README for collaboration demo",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix provide_automatic_options override",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "add ENOTDIR to from_file silent error handling",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix Config.from_file() silent mode not handling ENOTDIR",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix request resource leak when teardown handlers raise",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "\ud83e\udd16 Automated code quality improvements (5 fixes)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "style: format response tuple unpacking (extract helper)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Added a return type annotation to an internal utility function in the Requests library to improve code readability and static analysis without affecting behavior.",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Clarify data correctness explanation in quickstart",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Abort if the instance folder cannot be created",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "document using gevent for async",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "deprecate `should_ignore_error`",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "redirect defaults to 303",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Cache compiled templates in render_template_string",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: improve wording in appdispatch",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Improve templating documentation for clarity and readability",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Revise Jinja templating documentation for clarity and readability",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Docs: add context to Incoming Request Data section",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "clarify async view incompatibility with gevent monkey patching",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add GitHub Actions CI workflow",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add hello.py for testing",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Minor documentation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: Upgrade HTTP links to HTTPS",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: clarify 415 error when receiving JSON requests",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Clarify 415 Unsupported Media in JSON docs",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Clarify 415 Unsupported Media Type in JSON docs",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fixed error code documentation for request.json",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "init",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Document 415 Unsupported Media Type for JSON requests",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Improve exception handler in wsgi_app method",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Deprecate should_ignore_error method",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Clarify JSON request errors: 400 vs 415",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Increase required flit_core version to 3.11",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add built-in CSRF protection using Sec-Fetch-Site header",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix documentation for JSON error codes",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Create test",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Refactor __init__.py module to improve organization, readability and public API structure",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add documentation and fix type safety bugs",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Refactor Blueprint.register to reduce cyclomatic complexity",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "kimi-v1",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Deprecate should_ignore_error method and add unit tests",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Added rate limiting functionality to Flask app",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Docs: Add WSGI documentation note to README",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add copy-to-clipboard button for code blocks in Flask documentation.",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add copy-to-clipboard button for code blocks in Flask documentation.",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: Improve Quickstart example clarity for beginners",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix _validate_key to handle click 8.3.1 Sentinel values",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: Add explanation of reloader types and terminal output",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "pre-commit: Add codespell",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: enhance README with comprehensive examples and troubleshooting",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update app.py",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Create jenkinsfile",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add Seenode deployment instructions to documentation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "`pre-commit autoupdate --freeze` 2025-10-23",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix typos discovered by  codespell",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "GitHub Actions: Add Python 3.14 and 3.14t to the testing",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update installation instructions for Windows PowerShell",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Docs typo/markup fixes",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: fix missing quote in flashing example",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "clarify 415 vs 400 errors for request.json",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: clarify JSON parsing error conditions in Flask views",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Clarify asyncio and gevent incompatibility in docs (#5817)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add type hints to tutorial and Javascript examples",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "pass context through dispatch methods",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "this is issue here",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Create codeql-analysis.yml",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "merge app and request context",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add various bugs for BugBot demo",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add various bugs for BugBot demo",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Added a line for first contributionme",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix annotation for select_jinja_autoescape",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "feat(example/blog): Add flash messages for user feedback",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add CodeQL scan workflow",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add DEVOPS_NOTES.txt for practice",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "release version 3.1.2",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "refactor stream_with_context for async views",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "security docs for TRUSTED_HOSTS",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "push preserved contexts in correct order",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix typos and improve CLI documentation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update GitHub Actions workflow for artifact handling",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Loosen send_file type annotation to include typing.IO[bytes]",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Create python-package.yml",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: Fix grammar and article usage in documentation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Scroll to top doc UI",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: added scroll-to-top button with JS and CSS",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Respect autocorrect_location_header in make_response",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "BLockchain based E-voting example",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Widen send_file type hint to IO[bytes]",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Widen send_file type hint to IO[bytes]",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add devcontainer with Python 3.13 and uv support",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "use IO[bytes] instead of BinaryIO for wider compatibility",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix: Raise RuntimeError when stream_with_context is used on async view",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "newStaging",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Create Jenkinsfile",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "merge request",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Collapsable posts",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix session cookie path resolution",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Try the feather city GitHub Action",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "refactor: rename RequestBase import to RB for consistency",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix: template_filter function ( function parameter was overridden by 'name')",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "actions",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "svg logo",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "remove slsa provenance",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Create tutoriallask",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": " Add REST API blog example with full CRUD and unit tests Add REST API blog example with full CRUD and unit tests",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add section on host header injection and _external=True in url_for (#\u2026",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Improve Onboarding with Generated System Diagrams",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Improve Onboarding with Generated System Diagrams",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix template decorators to work without parentheses",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Docs: Fix escaping in HTML escaping example",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Docs: Fix escaping in HTML escaping example",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Allow iterables for multiple template paths",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix global CONTRIBUTING link",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "support call template_filter without parens",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix #5729: raise TypeError when @app.template_filter is used without parenthesis",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix template_filter decorator to support usage without parentheses",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Zadanie 14 - merge dev1",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Dev0",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "drop end of life python versions",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "release version 3.1.1",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "use uv",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update errorhandling.rst",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update macOS UI reference to \u201cSystem Settings\u201d",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "docs: add warning and best practices for url_for(..., _external=True)\u2026",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Improve README.md structure and clarity for better onboarding",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix Doc",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Doc sphinx",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "try 3",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Doc sphinx",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix for 5709: explicitly delete error references to prevent memory leaks",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update README.md",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Add PR trigger to workflow",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Merge app and request contexts into a single context (#5639)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix misleading docstring for teardown_request (closes #5102)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "remove tests about deprecated pkgutil.get_loader",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "add endpoint name in favicon example",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "better type checking during deprecation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "remove extra logic",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Stable",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "add fixture to mock importlib.util.find_spec for custom loaders in tests",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Remove HTTP Public Key Pinning from docs",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "add fixture to mock importlib.util.find_spec for custom loaders in tests",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix inaccurate documentation for adding a favicon redirect",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Improve invalid response error messages",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Use SPDX license identifier",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "This closes #3 will act as a coverage tracker, to our functions",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Enable PDF and ePub offline documentation downloads",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "[Edited] Fix minor bug in the main function",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Handle help arg by itself the same as no args",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fixes typo in `globals`",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Update app factory docs",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Async Iterable Response",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Fix typo in the docs",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "update `__version__` deprecation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "remove previously deprecated code",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix type hint for `cli_runner.invoke`",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "Use SPDX license identifier",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "release version 3.1.0",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "use generic bases for session",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "configure and check `request.trusted_hosts`",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "setting `SERVER_NAME` does not restrict routing for both `subdomain_matching` and `host_matching`",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "update min blinker version",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "enable secret key rotation",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "update env file precedence",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "give priority to '-e/--env-file' option over default files (#5628)",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "fix example and tutorial compatibility and update metadata",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "add config and docs for limits",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "update minimum dependencies",
+    "review_comments": []
+  },
+  {
+    "code": "dummy code",
+    "inline_comments": [],
+    "commit_msg": "drop support for Python 3.8",
+    "review_comments": []
+  }
+]
