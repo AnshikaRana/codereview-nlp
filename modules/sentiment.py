@@ -12,17 +12,35 @@ def analyze_sentiment(review_comments: list) -> dict:
     flags, suggestions = [], []
     neg_count = 0
 
+    
+
+    if not review_comments:
+        return {
+            "module": "review_tone",
+            "score": 100,
+            "flags": [],
+            "suggestions": []
+        }
+
     for c in review_comments:
         if not c or not c.strip():
             continue
-        result = _pipe(c[:512])[0]
+
+        try:
+            result = _pipe(c[:512])[0]
+        except Exception:
+            continue
+
         if result['label'] == 'LABEL_0':
             neg_count += 1
             flags.append(f'negative tone: {c[:50]}')
             if any(w in c.lower() for w in AGGRESSIVE):
-                suggestions.append(f'rephrase constructively: {c[:40]}')
+                suggestions.append(f"rephrase constructively instead of: '{c[:40]}'")
 
-    score = max(0, 100 - neg_count * 20)
+    score = max(0, min(100, 100 - neg_count * 20))
+
+    flags = list(set(flags))
+    suggestions = list(set(suggestions))
 
     return {
         "module": "review_tone",
