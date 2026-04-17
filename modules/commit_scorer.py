@@ -11,7 +11,17 @@ def score_commit(commit_msg: str) -> dict:
     msg = commit_msg.strip().lower()
     score, flags, suggestions = 0, [], []
 
-    if any(msg.startswith(v) for v in IMPERATIVE):
+    if not msg:
+        return {
+            "module": "commit_quality",
+            "score": 0,
+            "flags": ["empty commit message"],
+            "suggestions": ["write a meaningful commit message"]
+        }
+
+    first_word = msg.split()[0]
+
+    if first_word in IMPERATIVE:
         score += 34
     else:
         flags.append('does not start with imperative verb')
