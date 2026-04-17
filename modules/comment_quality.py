@@ -6,7 +6,7 @@ import re
 import language_tool_python
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.util import cos_sim
-import language_tool_python
+
 
 # Load once at module level
 _model = SentenceTransformer('all-MiniLM-L6-v2')
