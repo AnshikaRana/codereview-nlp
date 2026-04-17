@@ -1,9 +1,9 @@
-"""
-modules/comment_quality.py
-P2 owns this file. Exports: analyze_comments(code: str) -> dict
-"""
+
+# modules/comment_quality.py
+# P2 owns this file. Exports: analyze_comments(code: str) -> dict
 
 import re
+import language_tool_python
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.util import cos_sim
 import language_tool_python
