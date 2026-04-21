@@ -1,20 +1,75 @@
 import re
 
+# Common valid engineering names
+VALID_NAMES = {
+    "user", "users", "token", "app", "data", "result",
+    "index", "count", "config", "email", "url",
+    "response", "request", "payload", "items",
+    "name", "value", "message", "file", "path",
+    "hours", "minutes", "seconds", "price", "tax",
+    "customer", "profile", "status", "role",
+    "list", "dict", "set", "obj", "row", "col"
+}
+
+# Weak / unclear names
+BAD_NAMES = {
+    "x", "y", "z", "a", "b", "c",
+    "u", "p", "i", "j", "k",
+    "tmp", "temp", "var", "abc",
+    "foo", "bar"
+}
+
 
 def extract_names(code):
-    # Extract variable and function names from code
-    functions = re.findall(r"def (\w+)", code)
-    variables = re.findall(r"(\w+)\s*=", code)
+    # Extract function names
+    functions = re.findall(r"def\s+([a-zA-Z_]\w*)", code)
+
+    # Extract variable names
+    variables = re.findall(r"\b([a-zA-Z_]\w*)\s*=", code)
+
     return functions + variables
 
 
+def is_descriptive(name):
+    # snake_case names
+    if "_" in name and len(name) >= 5:
+        return True
+
+    # camelCase names
+    if re.search(r"[a-z][A-Z]", name) and len(name) >= 5:
+        return True
+
+    # Long readable words
+    if len(name) >= 6:
+        return True
+
+    return False
+
+
 def score_name(name):
-    # Score a single name
+    lower = name.lower()
+
+    # Clearly valid names
+    if lower in VALID_NAMES:
+        return 2
+
+    # Clearly weak names
+    if lower in BAD_NAMES:
+        return 0
+
+    # Too short
     if len(name) <= 2:
         return 0
-    if "_" in name or len(name) > 5:
+
+    # Descriptive structure
+    if is_descriptive(name):
         return 2
-    return 1
+
+    # Medium quality
+    if len(name) <= 4:
+        return 1
+
+    return 2
 
 
 # ✅ FINAL REQUIRED FUNCTION (PRD compliant)
@@ -40,6 +95,7 @@ def analyze_names(code: str) -> dict:
         if s == 0:
             flags.append(n)
             suggestions.append(f"rename '{n}' to something more descriptive")
+
         elif s == 1:
             flags.append(n)
             suggestions.append(f"consider improving clarity of '{n}'")

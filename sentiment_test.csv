@@ -1,0 +1,57 @@
+comment,label
+Great refactor,positive
+Nice optimization here,positive
+Excellent readability,positive
+Clean implementation,positive
+Well structured module,positive
+Good naming convention,positive
+Looks solid to me,positive
+Smart use of functions,positive
+Very maintainable code,positive
+Nice separation of concerns,positive
+
+This is terrible,negative
+Bad implementation,negative
+Wrong logic here,negative
+This makes no sense,negative
+Did you even test this?,negative
+Fix this now,negative
+Poor design choice,negative
+Messy structure,negative
+This is broken,negative
+Completely incorrect,negative
+
+Please improve naming,neutral
+Consider refactoring loop,neutral
+Can optimize performance,neutral
+Might need null checks,neutral
+Maybe add comments,neutral
+Please simplify logic,neutral
+Could improve readability,neutral
+Consider edge cases,neutral
+Try modularizing this,neutral
+May need better validation,neutral
+
+Nice effort but naming can improve,neutral
+"Good work, but optimize memory",neutral
+Readable code though comments missing,neutral
+"Works fine, maybe refactor later",neutral
+Decent structure but can simplify,neutral
+
+This approach is risky,negative
+Not scalable enough,negative
+Too many nested loops,negative
+Likely to fail on edge cases,negative
+Unsafe implementation,negative
+
+Really elegant solution,positive
+Highly readable code,positive
+Professional structure,positive
+Great modularization,positive
+Excellent maintainability,positive
+
+Can be improved further,neutral
+Needs review,neutral
+Please revisit logic,neutral
+Acceptable but can improve,neutral
+Looks okay overall,neutral

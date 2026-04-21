@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 import base64
-import os
 
-# --- 1. NLP MODULE IMPORTS ---
+# -------------------------------
+# NLP MODULE IMPORTS
+# -------------------------------
 try:
     from modules.name_quality import analyze_names
     from modules.comment_quality import analyze_comments
@@ -12,164 +13,283 @@ try:
 except ImportError as e:
     st.error(f"❌ Module Import Error: {e}")
 
-# --- 2. GLASS UI ENGINE ---
+# -------------------------------
+# PAGE CONFIG
+# -------------------------------
+st.set_page_config(
+    page_title="CodeGlass NLP",
+    page_icon="💎",
+    layout="wide"
+)
+
+# -------------------------------
+# BACKGROUND UI
+# -------------------------------
 def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
+    with open(bin_file, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode()
+
 
 def set_background(png_file):
     try:
         bin_str = get_base64(png_file)
-        page_bg_img = f'''
-        <style>
-        .stApp {{
-            background: 
-                radial-gradient(circle at center, rgba(10, 10, 42, 0.4) 0%, rgba(0, 0, 0, 0.95) 100%),
+
+        st.markdown(
+            f"""
+            <style>
+
+            .stApp {{
+                background:
+                radial-gradient(circle at center,
+                rgba(10,10,42,0.45) 0%,
+                rgba(0,0,0,0.96) 100%),
                 url("data:image/png;base64,{bin_str}");
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-        }}
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }}
 
-        /* --- 100% TRANSPARENT INPUT BOXES --- */
-        /* Targets the outer div and the inner textarea/input */
-        div[data-baseweb="textarea"], 
-        div[data-baseweb="input"], 
-        div[data-baseweb="base-input"],
-        .stTextArea textarea, 
-        .stTextInput input {{
-            background-color: transparent !important; /* Removes the grey completely */
-            color: white !important;
-            border: 1px solid rgba(255, 255, 255, 0.2) !important;
-            border-radius: 12px !important;
-            backdrop-filter: blur(8px) !important;
-            transition: all 0.3s ease;
-        }}
+            section[data-testid="stSidebar"] {{
+                background: rgba(255,255,255,0.02);
+                backdrop-filter: blur(10px);
+            }}
 
-        /* Subtle glow on focus */
-        .stTextArea textarea:focus, .stTextInput input:focus {{
-            border: 1px solid #ffaa00 !important;
-            box-shadow: 0 0 10px rgba(255, 170, 0, 0.2) !important;
-        }}
+            div[data-baseweb="textarea"],
+            div[data-baseweb="input"],
+            .stTextArea textarea,
+            .stTextInput input {{
+                background: rgba(255,255,255,0.04) !important;
+                color: white !important;
+                border-radius: 14px !important;
+                border: 1px solid rgba(255,255,255,0.12) !important;
+                backdrop-filter: blur(12px) !important;
+            }}
 
-        /* --- CONFIGURATION ALERTS --- */
-        [data-testid="stAlert"] {{
-            background-color: rgba(255, 255, 255, 0.05) !important; 
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            backdrop-filter: blur(12px) !important;
-            margin-bottom: 10px !important;
-        }}
-        [data-testid="stAlert"] * {{ color: white !important; }}
+            .stButton > button {{
+                width: 100%;
+                height: 4rem;
+                border-radius: 14px;
+                border: none;
+                font-size: 1.2rem;
+                font-weight: 800;
+                color: white;
+                background: linear-gradient(135deg,#ff4b2b,#ffb400);
+                box-shadow: 0 10px 20px rgba(255,140,0,0.25);
+                transition: 0.25s ease;
+            }}
 
-        /* --- BIG SUNSET GRADIENT BUTTON --- */
-        .stButton {{
-            display: flex;
-            justify-content: center;
-            margin-top: 25px;
-        }}
+            .stButton > button:hover {{
+                transform: translateY(-2px);
+                box-shadow: 0 15px 25px rgba(255,180,0,0.4);
+            }}
 
-        .stButton>button {{
-            width: 100% !important;
-            height: 5rem !important; /* Even bigger height */
-            /* Gradient from Dark Orange to Vibrant Yellow */
-            background: linear-gradient(135deg, #ff4b2b 0%, #ffb400 100%) !important;
-            border-radius: 15px !important; /* Slightly more modern square-round */
-            color: white !important;
-            font-weight: 900 !important;
-            font-size: 1.4rem !important; /* Very big text */
-            text-transform: uppercase !important;
-            letter-spacing: 3px !important;
-            border: none !important;
-            box-shadow: 0 10px 20px rgba(255, 75, 43, 0.3) !important;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-        }}
+            [data-testid="stMetricValue"] {{
+                color: #ffb400 !important;
+                text-shadow: 0 0 8px rgba(255,180,0,0.25);
+            }}
 
-        .stButton>button:hover {{
-            transform: translateY(-5px) scale(1.02) !important;
-            box-shadow: 0 15px 30px rgba(255, 180, 0, 0.5) !important;
-            filter: brightness(1.1);
-        }}
+            [data-testid="stAlert"] {{
+                border-radius: 12px !important;
+            }}
 
-        .stButton>button:active {{
-            transform: translateY(2px) !important;
-        }}
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
 
-        [data-testid="stMetricValue"] {{
-            color: #ffb400 !important;
-            text-shadow: 0 0 10px rgba(255, 180, 0, 0.3) !important;
-        }}
-        </style>
-        '''
-        st.markdown(page_bg_img, unsafe_allow_html=True)
     except:
-        st.warning("Ensure 'gradient background.jpg' is in the folder.")
+        st.warning("Background image not found.")
 
-# --- 3. APP EXECUTION ---
-st.set_page_config(page_title='CodeGlass NLP', layout='wide')
-set_background('gradient background.jpg')
 
-st.title('[Code Health Dashboard]')
-st.markdown('**A professional tool for analyzing code, comments, and sentiment in PRs.**')
+set_background("gradient background.jpg")
+
+# -------------------------------
+# TITLE
+# -------------------------------
+st.title("💎 Code Health Dashboard")
+st.caption("AI-powered Pull Request Review Quality Analyzer")
 st.divider()
 
-col_input, col_config = st.columns([2, 1])
+# -------------------------------
+# INPUT SECTION
+# -------------------------------
+left, right = st.columns([2, 1])
 
-with col_input:
-    st.subheader('PR Data Input')
-    code_input = st.text_area('Paste your Code & Comments here...', height=300)
-    commit_input = st.text_input('Commit Message')
-    reviews_input = st.text_area('Review Comments (One per line)', height=150)
+with left:
+    st.subheader("📥 PR Data Input")
 
-with col_config:
-    st.subheader('Configuration')
-    st.write("") 
-    st.write("") 
-    
-    st.info('This dashboard integrates NLP modules from Persons 1, 2, and 3.')
-    st.warning('Ensure __init__.py is present in the modules folder.')
-    
-    # Large centered Orange/Yellow button
-    analyze_btn = st.button('Analyze PR Health', type='primary')
+    code_input = st.text_area(
+        "Paste Code + Comments",
+        height=320,
+        placeholder="Paste PR code here..."
+    )
 
-# --- 4. INTEGRATION LOGIC ---
+    commit_input = st.text_input(
+        "Commit Message",
+        placeholder="e.g. Fix login timeout bug"
+    )
+
+    reviews_input = st.text_area(
+        "Review Comments (One per line)",
+        height=170,
+        placeholder="Looks good\nNeed timeout handling"
+    )
+
+with right:
+    st.subheader("⚙️ Configuration")
+
+    st.info("Modules Integrated:\n\n✅ Name Quality\n✅ Comment Quality\n✅ Commit Quality\n✅ Sentiment Analysis")
+
+    st.warning("Ensure requirements installed & modules folder present.")
+
+    analyze_btn = st.button("🚀 Analyze PR Health")
+
+# -------------------------------
+# HELPER FUNCTION
+# -------------------------------
+def realistic_score(score, flags):
+    """
+    Prevent unrealistic 100s
+    """
+    if score == 100 and len(flags) == 0:
+        return 96
+    elif score >= 95:
+        return 94
+    return score
+
+
+# -------------------------------
+# ANALYSIS LOGIC
+# -------------------------------
 if analyze_btn:
+
     if not code_input.strip():
-        st.error("Please provide code input first!")
-    else:
-        with st.spinner('Calculating health metrics...'):
-            try:
-                res_names = analyze_names(code_input)
-                res_comments = analyze_comments(code_input)
-                res_commit = score_commit(commit_input)
-                rev_list = [r for r in reviews_input.split('\n') if r.strip()]
-                res_sentiment = analyze_sentiment(rev_list)
-                
-                results = [res_names, res_comments, res_commit, res_sentiment]
+        st.error("Please enter code first.")
+        st.stop()
 
-                st.divider()
-                st.header('Analysis Results')
+    with st.spinner("Analyzing PR quality..."):
 
-                m_col1, m_col2, m_col3, m_col4 = st.columns(4)
-                m_col1.metric("Name Quality", f"{res_names['score']}%")
-                m_col2.metric("Comment Quality", f"{res_comments['score']}%")
-                m_col3.metric("Commit Score", f"{res_commit['score']}%")
-                m_col4.metric("Sentiment", f"{res_sentiment['score']}%")
+        try:
+            # Run Modules
+            res_names = analyze_names(code_input)
+            res_comments = analyze_comments(code_input)
+            res_commit = score_commit(commit_input)
 
-                avg_score = round(sum(r['score'] for r in results) / 4)
-                st.progress(avg_score / 100)
-                st.subheader(f"Overall Health: {avg_score}%")
-                
-                c1, c2 = st.columns(2)
-                with c1:
-                    st.subheader("Flags 🚩")
-                    for r in results:
-                        for flag in r.get('flags', []):
-                            st.warning(f"**{r['module'].upper()}**: {flag}")
-                with c2:
-                    st.subheader("Suggestions 💡")
-                    for r in results:
-                        for sug in r.get('suggestions', []):
-                            st.info(f"**{r['module'].upper()}**: {sug}")
-            except Exception as e:
-                st.error(f"Analysis failed: {e}")
+            review_list = [
+                r.strip()
+                for r in reviews_input.split("\n")
+                if r.strip()
+            ]
+
+            res_sentiment = analyze_sentiment(review_list)
+
+            results = [
+                res_names,
+                res_comments,
+                res_commit,
+                res_sentiment
+            ]
+
+            # Apply realistic caps
+            for r in results:
+                r["score"] = realistic_score(
+                    r["score"],
+                    r.get("flags", [])
+                )
+
+            # Overall
+            avg_score = round(
+                sum(r["score"] for r in results) / 4
+            )
+
+            # -------------------------
+            # RESULTS HEADER
+            # -------------------------
+            st.divider()
+            st.header("📊 Analysis Results")
+
+            # Metrics
+            c1, c2, c3, c4 = st.columns(4)
+
+            c1.metric("Name Quality", f"{res_names['score']}%")
+            c2.metric("Comment Quality", f"{res_comments['score']}%")
+            c3.metric("Commit Score", f"{res_commit['score']}%")
+            c4.metric("Sentiment", f"{res_sentiment['score']}%")
+
+            st.progress(avg_score / 100)
+            st.subheader(f"Overall Health: {avg_score}%")
+
+            # -------------------------
+            # QUALITY BADGE
+            # -------------------------
+            if avg_score >= 90:
+                st.success("🚀 Excellent Pull Request Quality")
+            elif avg_score >= 75:
+                st.info("✅ Good Pull Request Quality")
+            elif avg_score >= 60:
+                st.warning("⚠️ Moderate Pull Request Quality")
+            else:
+                st.error("❌ Needs Improvement")
+
+            # -------------------------
+            # CHART
+            # -------------------------
+            chart_df = pd.DataFrame({
+                "Module": [
+                    "Name",
+                    "Comment",
+                    "Commit",
+                    "Sentiment"
+                ],
+                "Score": [
+                    res_names["score"],
+                    res_comments["score"],
+                    res_commit["score"],
+                    res_sentiment["score"]
+                ]
+            })
+
+            st.subheader("📈 Module Scores Comparison")
+            st.bar_chart(chart_df.set_index("Module"))
+
+            with st.expander("📋 Detailed Score Table"):
+                st.dataframe(chart_df, use_container_width=True)
+
+            # -------------------------
+            # FLAGS & SUGGESTIONS
+            # -------------------------
+            colA, colB = st.columns(2)
+
+            with colA:
+                st.subheader("🚩 Flags")
+
+                total_flags = 0
+
+                for r in results:
+                    for flag in r.get("flags", []):
+                        total_flags += 1
+                        st.warning(
+                            f"**{r['module'].upper()}**: {flag}"
+                        )
+
+                if total_flags == 0:
+                    st.success("No major issues found.")
+
+            with colB:
+                st.subheader("💡 Suggestions")
+
+                total_sugs = 0
+
+                for r in results:
+                    for sug in r.get("suggestions", []):
+                        total_sugs += 1
+                        st.info(
+                            f"**{r['module'].upper()}**: {sug}"
+                        )
+
+                if total_sugs == 0:
+                    st.success("Looks production-ready.")
+
+        except Exception as e:
+            st.error(f"Analysis failed: {e}")
