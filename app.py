@@ -17,7 +17,7 @@ except ImportError as e:
 # PAGE CONFIG
 # -------------------------------
 st.set_page_config(
-    page_title="CodeGlass NLP",
+    page_title="CodeReview NLP",
     page_icon="💎",
     layout="wide"
 )
@@ -50,20 +50,23 @@ def set_background(png_file):
                 background-attachment: fixed;
             }}
 
-            section[data-testid="stSidebar"] {{
-                background: rgba(255,255,255,0.02);
-                backdrop-filter: blur(10px);
-            }}
-
+            /* --- THE FIX FOR TRANSPARENT BOXES --- */
             div[data-baseweb="textarea"],
             div[data-baseweb="input"],
+            div[data-baseweb="base-input"],
             .stTextArea textarea,
             .stTextInput input {{
-                background: rgba(255,255,255,0.04) !important;
+                background-color: transparent !important; /* Force transparency */
+                background: transparent !important;       /* Extra safety */
                 color: white !important;
                 border-radius: 14px !important;
                 border: 1px solid rgba(255,255,255,0.12) !important;
                 backdrop-filter: blur(12px) !important;
+            }}
+
+            /* Removes the shadow/inner-grey layer from Streamlit boxes */
+            div[data-testid="stMarkdownContainer"] {{
+                background: transparent !important;
             }}
 
             .stButton > button {{
@@ -90,7 +93,9 @@ def set_background(png_file):
             }}
 
             [data-testid="stAlert"] {{
+                background-color: rgba(255,255,255,0.05) !important;
                 border-radius: 12px !important;
+                backdrop-filter: blur(10px) !important;
             }}
 
             </style>
@@ -101,14 +106,29 @@ def set_background(png_file):
     except:
         st.warning("Background image not found.")
 
-
 set_background("gradient background.jpg")
 
 # -------------------------------
 # TITLE
 # -------------------------------
-st.title("💎 Code Health Dashboard")
-st.caption("AI-powered Pull Request Review Quality Analyzer")
+st.markdown(
+    """
+    <h1 style='font-size: 4.5rem; font-weight: 900; color: white; margin-bottom: 0px;'>
+    CodeReview NLP
+    </h1>
+    """, 
+    unsafe_allow_html=True
+)
+st.title("Automated PR Language & Documentation Quality Analyzer")
+st.markdown(
+    """
+    <p style='font-size: 1.6rem; color: rgba(255, 255, 255, 0.7); font-style: italic;'>
+    A Natural Language Processing system that evaluates the linguistic quality of code reviews, 
+    commit messages, and inline comments using multi-model NLP pipeline
+    </p>
+    """, 
+    unsafe_allow_html=True
+)
 st.divider()
 
 # -------------------------------
