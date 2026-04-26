@@ -3,33 +3,38 @@ import pandas as pd
 import base64
 
 # -------------------------------
-# NLP MODULE IMPORTS
+# SAFE MODULE IMPORTS
 # -------------------------------
-# Safe imports
-analyze_names = None
-analyze_comments = None
-score_commit = None
-analyze_sentiment = None
+IMPORT_ERRORS = []
 
 try:
     from modules.name_quality import analyze_names
-except Exception:
-    pass
+except Exception as e:
+    analyze_names = None
+    IMPORT_ERRORS.append(f"name_quality: {e}")
 
 try:
     from modules.comment_quality import analyze_comments
-except Exception:
-    pass
+except Exception as e:
+    analyze_comments = None
+    IMPORT_ERRORS.append(f"comment_quality: {e}")
 
 try:
     from modules.commit_scorer import score_commit
-except Exception:
-    pass
+except Exception as e:
+    score_commit = None
+    IMPORT_ERRORS.append(f"commit_scorer: {e}")
 
 try:
     from modules.sentiment import analyze_sentiment
-except Exception:
-    pass
+except Exception as e:
+    analyze_sentiment = None
+    IMPORT_ERRORS.append(f"sentiment: {e}")
+
+    if IMPORT_ERRORS:
+        st.error("Some modules failed to load:")
+    for err in IMPORT_ERRORS:
+        st.write(err)
 # -------------------------------
 # PAGE CONFIG
 # -------------------------------
