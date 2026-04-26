@@ -5,14 +5,31 @@ import base64
 # -------------------------------
 # NLP MODULE IMPORTS
 # -------------------------------
+# Safe imports
+analyze_names = None
+analyze_comments = None
+score_commit = None
+analyze_sentiment = None
+
 try:
     from modules.name_quality import analyze_names
-    from modules.comment_quality import analyze_comments
-    from modules.commit_scorer import score_commit
-    from modules.sentiment import analyze_sentiment
-except ImportError as e:
-    st.error(f"❌ Module Import Error: {e}")
+except Exception:
+    pass
 
+try:
+    from modules.comment_quality import analyze_comments
+except Exception:
+    pass
+
+try:
+    from modules.commit_scorer import score_commit
+except Exception:
+    pass
+
+try:
+    from modules.sentiment import analyze_sentiment
+except Exception:
+    pass
 # -------------------------------
 # PAGE CONFIG
 # -------------------------------
